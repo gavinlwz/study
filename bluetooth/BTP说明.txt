@@ -1,0 +1,48 @@
+A2DP
+
+AVCTP
+AVCTP协议描述了蓝牙设备间Audio/Video的控制信号交换的格式和机制，它是一个总体的协议，具体的控制信息由其指定的协议(如AVRCP)实现，AVCTP本身只指定控制command和response的总体的格式。
+
+AVDTP
+AVDTP(AUDIO/VIDEO DISTRIBUTION TRANSPORT PROTOCOL)是用来描述音频/视频在蓝牙设备间的传输的协议，是A2DP协议的基础协议，其在协议栈中的位置如下：
+
+AVRCP
+AVRCP（Audio/Video Remote Control Profile），即音频/视频远程控制规范。
+
+BNEP
+网络封装协议（BNEP）用于通过L2CAP传输另一协议栈的数据。主要目的是传输个人区域网络配置文件中的IP 封包。BNEP在无线局域网中的功能与SNAP类似。
+
+GAP
+Generic Access Profile
+
+GATT
+https://developer.bluetooth.org/TechnologyOverview/Pages/GATT.aspx
+Generic Attribute Profile (GATT) is built on top of the Attribute Protocol (ATT) and establishes common operations and a framework for the data transported and stored by the Attribute Protocol. 
+
+HID
+Human interface Device
+https://developer.bluetooth.org/TechnologyOverview/Pages/HID.aspx
+
+L2CAP
+https://developer.bluetooth.org/TechnologyOverview/Pages/L2CAP.aspx
+
+mcap
+https://developer.bluetooth.org/TechnologyOverview/Pages/MCAP.aspx
+
+pan
+https://developer.bluetooth.org/TechnologyOverview/Pages/PAN.aspx
+
+RFCOMM
+https://developer.bluetooth.org/TechnologyOverview/Pages/RFCOMM.aspx
+
+sdp
+https://developer.bluetooth.org/TechnologyOverview/Pages/SDAP.aspx
+
+
+smp
+
+
+srvc
+
+
+
